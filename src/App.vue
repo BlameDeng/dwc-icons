@@ -7,7 +7,7 @@
       :key="icon"
       @click="onClick(icon)"
     >
-      <dwc-icon :name="icon" size="20px" :style="{ color: 'red' }"></dwc-icon>
+      <dwc-icon :name="icon" :size="24"></dwc-icon>
       <br />
       <span>{{ icon }}</span>
     </div>
