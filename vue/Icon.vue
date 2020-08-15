@@ -27,29 +27,5 @@ export default {
 };
 </script>
 <style>
-.dwc-icon {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 0;
-}
-
-.dwc-icon > svg {
-  width: 100%;
-  height: 100%;
-  fill: currentColor;
-}
-
-.dwc-icon.spinning > svg {
-  animation: dwc-spin 1.2s linear infinite;
-}
-
-@keyframes dwc-spin {
-  from {
-    transform: rotateZ(0);
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
-}
+@import "./index.css";
 </style>
