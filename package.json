@@ -1,6 +1,6 @@
 {
   "name": "dwc-icons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "vue/index.js",
   "types": "vue/index.d.ts",

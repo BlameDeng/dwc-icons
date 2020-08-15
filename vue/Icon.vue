@@ -12,7 +12,8 @@ export default {
   },
   setup(props, context) {
     const style = computed(() => {
-      const iconSize = props.size === "string" ? props.size : props.size + "px";
+      const iconSize =
+        typeof props.size === "string" ? props.size : props.size + "px";
 
       return { width: iconSize, height: iconSize };
     });
