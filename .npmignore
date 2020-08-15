@@ -1,5 +1,10 @@
+.git
+docs
+icons
 node_modules
+src
 .DS_Store
 *.local
 .gitignore
+module.d.ts
 package-lock.json

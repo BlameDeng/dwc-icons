@@ -1,17 +1,18 @@
 {
   "name": "dwc-icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "vue/index.js",
+  "types": "vue/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "vue": "^3.0.0-rc.5"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0-rc.1"
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "vite": "^1.0.0-rc.4"
   }
 }
