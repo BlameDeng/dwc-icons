@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 import { computed, h } from "vue";
 
 import { icons } from "./icons.js";
@@ -20,7 +20,7 @@ export default {
     return () =>
       h(
         "i",
-        { className: "dwc-icon", style: style.value },
+        { class: "dwc-icon", style: style.value },
         icons[props.name] ? icons[props.name]() : []
       );
   },
