@@ -27,9 +27,10 @@ export default {
               ? " spinning"
               : ""
           }`,
+          key: props.name,
           style: style.value,
         },
-        icons[props.name] ? icons[props.name]() : []
+        icons[props.name] ? icons[props.name](undefined, false) : []
       );
   },
 };
