@@ -21,7 +21,14 @@ export default {
     return () =>
       h(
         "i",
-        { class: "dwc-icon", style: style.value },
+        {
+          class: `dwc-icon${
+            props.spinning === true || props.spinning === "true"
+              ? " spinning"
+              : ""
+          }`,
+          style: style.value,
+        },
         icons[props.name] ? icons[props.name]() : []
       );
   },
