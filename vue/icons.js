@@ -205,6 +205,7 @@ import { render as DWCgesture_touch } from "./components/gesture-touch.js";
 import { render as DWCgesture_two_finger_drag } from "./components/gesture-two-finger-drag.js";
 import { render as DWCgesture_two_finger_tap } from "./components/gesture-two-finger-tap.js";
 import { render as DWCgesture_two_finger } from "./components/gesture-two-finger.js";
+import { render as DWCgithub } from "./components/github.js";
 import { render as DWCglobe } from "./components/globe.js";
 import { render as DWCgo_to_end } from "./components/go-to-end.js";
 import { render as DWCgo_to_start } from "./components/go-to-start.js";
@@ -262,6 +263,7 @@ import { render as DWClightbulb_2 } from "./components/lightbulb_2.js";
 import { render as DWCline } from "./components/line.js";
 import { render as DWClink } from "./components/link.js";
 import { render as DWClist } from "./components/list.js";
+import { render as DWCloading } from "./components/loading.js";
 import { render as DWClocation } from "./components/location.js";
 import { render as DWClock_unlocked } from "./components/lock-unlocked.js";
 import { render as DWClock } from "./components/lock.js";
@@ -752,6 +754,7 @@ export const icons = {
 "gesture-two-finger-drag": DWCgesture_two_finger_drag,
 "gesture-two-finger-tap": DWCgesture_two_finger_tap,
 "gesture-two-finger": DWCgesture_two_finger,
+"github": DWCgithub,
 "globe": DWCglobe,
 "go-to-end": DWCgo_to_end,
 "go-to-start": DWCgo_to_start,
@@ -809,6 +812,7 @@ export const icons = {
 "line": DWCline,
 "link": DWClink,
 "list": DWClist,
+"loading": DWCloading,
 "location": DWClocation,
 "lock-unlocked": DWClock_unlocked,
 "lock": DWClock,
